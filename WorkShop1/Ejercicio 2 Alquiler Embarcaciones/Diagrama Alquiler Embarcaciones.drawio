@@ -1,0 +1,44 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="1290" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5d2195bd80daf111-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;Velero&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; cantidadMastiles: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; calcularMontoAlquiler(): &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="440" y="610" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;Capitan&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- apellido&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- matriculaNavegacion&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Capitan(nombre&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, apellido&lt;/span&gt;: String&lt;span style=&quot;background-color: initial;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;matriculaNavegacion: String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="170" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;Usuario&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- identificacion: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- nombre&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- direccion&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- telefono&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Usuario(identificacion&lt;span style=&quot;background-color: initial;&quot;&gt;: String, nombre&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: String,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;direccion&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: String, telefono&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: String)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5d2195bd80daf111-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;Yate&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; cantidadCamarotes: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-type&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; vecesAlquilado: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; calcularMontoAlquiler(): &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; calcularPrecioCompra(): &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="440" y="720" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uxrtul3fwMUPSCjzu0AQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;entryX=0.999;entryY=0.823;entryDx=0;entryDy=0;exitX=0.006;exitY=0.166;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="5d2195bd80daf111-20" target="uxrtul3fwMUPSCjzu0AQ-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="732" />
+            </Array>
+            <mxPoint x="398" y="775" as="sourcePoint" />
+            <mxPoint x="350" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uxrtul3fwMUPSCjzu0AQ-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;Embarcacion&lt;/i&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# capitan: Capitan&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# precioBase: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;# recargo: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;# anioFabricacion: &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;# eslora: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;# usuario: Usuario&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; calcularMontoAlquiler(): &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="600" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uxrtul3fwMUPSCjzu0AQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;exitX=0.006;exitY=0.166;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="685" />
+              <mxPoint x="436" y="680" />
+            </Array>
+            <mxPoint x="438" y="685" as="sourcePoint" />
+            <mxPoint x="320" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
